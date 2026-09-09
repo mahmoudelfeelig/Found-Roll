@@ -328,6 +328,18 @@ def create_app(
                 # Preserve the public and claimant projection cache boundaries
                 # for every outcome, including authorization failures.
                 response.headers["Cache-Control"] = "no-store, private"
+            response.headers["Content-Security-Policy"] = (
+                "object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+            )
+            response.headers["Permissions-Policy"] = (
+                "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+            )
+            response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+            response.headers["Strict-Transport-Security"] = (
+                "max-age=31536000; includeSubDomains"
+            )
+            response.headers["X-Content-Type-Options"] = "nosniff"
+            response.headers["X-Frame-Options"] = "DENY"
             response.headers[CORRELATION_HEADER] = correlation_id
             return response
         finally:
