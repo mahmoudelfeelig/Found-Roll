@@ -25,6 +25,7 @@ export function JudgeWalkthrough({ connection, walkthrough }) {
     <div className="judge-workspace">
       <section className="judge-intro">
         <div>
+          <img className="judge-brand" src="/assets/elephant-logo.png" alt="" />
           <span className="judge-kicker"><Eye size={14} weight="fill" /> COMPLETED CASE STORY · READ-ONLY</span>
           <h1>See how this lost-item case was resolved</h1>
           <p>This safe public view shows the redacted outcome. Private evidence and staff actions stay protected.</p>
@@ -111,7 +112,7 @@ export function JudgeWalkthrough({ connection, walkthrough }) {
         </main>
       )}
 
-      <footer className="judge-footer"><span className={`connection-${connection.status}`}><CloudCheck size={14} weight="fill" /> {connection.label}</span><span>Private evidence and staff actions stay protected.</span></footer>
+      <footer className="judge-footer"><span className={`connection-${connection.status}`}><CloudCheck size={14} weight="fill" /> {connection.label}</span><span className="judge-footer-brand"><img src="/assets/elephant-logo.png" alt="" />Private evidence and staff actions stay protected.</span></footer>
     </div>
   );
 }

@@ -45,7 +45,7 @@ export function WindowChrome({ view, setView, onRefresh, onSignOut, busy = false
   return (
     <>
       <header className="title-bar">
-        <span>Found Roll — {title}</span>
+        <span className="title-brand"><img src="/assets/elephant-logo.png" alt="" />Found Roll — {title}</span>
         <span className="window-actions" aria-hidden="true"><i></i><i></i><i></i></span>
       </header>
       <nav className="menu-bar" aria-label="Application menu">

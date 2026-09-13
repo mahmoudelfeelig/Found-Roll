@@ -2,8 +2,8 @@
   "schema_version": "1",
   "kind": "found-roll-frontend-build",
   "entrypoint": "dist/client/index.html",
-  "file_count": 12,
-  "total_bytes": 2564216,
+  "file_count": 13,
+  "total_bytes": 2571515,
   "files": [
     {
       "path": "dist/client/assets/README.md",
@@ -21,14 +21,19 @@
       "sha256": "e5f8f907e9fcc2e21415b41218faea6ef11f783827aa6409aaba32defb6e64ed"
     },
     {
-      "path": "dist/client/assets/index-CCX8NRJP.js",
-      "bytes": 414582,
-      "sha256": "b35a68d50101b40a361f9aca5260a9f5de6fd361a9236970d6a6933fad4f132b"
+      "path": "dist/client/assets/elephant-logo.png",
+      "bytes": 24062,
+      "sha256": "227cd03570400386aca1a439e825e60805e7df361f85a6d3296ac26efad0ed6e"
     },
     {
-      "path": "dist/client/assets/index-DKfpiJj7.css",
-      "bytes": 40195,
-      "sha256": "5db5971fe9656a9f5e9a549b7fe10f6b7f8b0548ed2a837fea70ec99462ebed6"
+      "path": "dist/client/assets/index-CIqYfTDD.js",
+      "bytes": 414826,
+      "sha256": "7d4fa784ca7f7a71e8d3896c6a5234b9d510a7b082465722b8e67a66e4f59a2b"
+    },
+    {
+      "path": "dist/client/assets/index-DyN895ea.css",
+      "bytes": 40468,
+      "sha256": "1b124aeaae2b7dadba0f7d4343acbde560dc56586ad425820a3eb1c9669b4593"
     },
     {
       "path": "dist/client/assets/northport-intake.jpg",
@@ -52,8 +57,8 @@
     },
     {
       "path": "dist/client/index.html",
-      "bytes": 17986,
-      "sha256": "943370d251890284f0bb6e623d5e21136fc9d7be66cb0c09982c84a2f95747e8"
+      "bytes": 706,
+      "sha256": "b33f3a26280ca6efe19795b9a7eac0b1d0b933b7996c6c7465294a0c6df8a0be"
     },
     {
       "path": "dist/client/legal/FOUND-ROLL-LICENSE.txt",

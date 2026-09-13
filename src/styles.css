@@ -114,6 +114,18 @@ select:focus-visible {
   text-shadow: 0 1px #fff;
 }
 
+.title-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.title-brand img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
 .window-actions {
   display: flex;
   gap: 7px;
@@ -1529,6 +1541,14 @@ input:disabled {
   margin: 0 auto;
 }
 
+.judge-brand {
+  float: right;
+  width: 66px;
+  height: 66px;
+  margin: 0 0 12px 24px;
+  object-fit: contain;
+}
+
 .judge-kicker {
   display: inline-flex;
   align-items: center;
@@ -1652,6 +1672,7 @@ input:disabled {
 
 .judge-footer { min-height: 42px; margin-top: 28px; padding: 8px 18px; border-top: 1px solid #b5bbc0; background: #e6e9eb; display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #59636b; font-size: 10px; }
 .judge-footer span { display: inline-flex; align-items: center; gap: 5px; }
+.judge-footer-brand img { width: 22px; height: 22px; object-fit: contain; }
 
 .intake-dialog > header {
   height: 43px;
